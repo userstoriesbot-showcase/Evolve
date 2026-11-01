@@ -1,0 +1,10 @@
+# Showcase fork only (never part of an upstream pull request): the wiki is committed static output.
+version: 1
+app:
+  install: "true"
+  start: python3 -m http.server {port} --bind 0.0.0.0
+  url: http://localhost:{port}
+  readyPath: /wiki.html
+  runtime: node22
+demo:
+  maxVideos: 1
