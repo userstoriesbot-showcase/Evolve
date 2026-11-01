@@ -8,3 +8,4 @@ app:
   runtime: node22
 demo:
   maxVideos: 1
+  beforePass: true
